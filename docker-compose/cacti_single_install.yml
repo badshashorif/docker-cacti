@@ -1,9 +1,9 @@
-version: '2'
+version: '3.8'
 services:
 
 
   cacti:
-    image: "smcline06/cacti"
+    image: "badshashorif/cacti"
     container_name: cacti
     domainname: example.com
     hostname: cacti
