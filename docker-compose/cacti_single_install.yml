@@ -3,7 +3,7 @@ services:
 
 
   cacti:
-    image: "badshashorif/cacti"
+    image: "badshashorif/cacti:latest"
     container_name: cacti
     domainname: example.com
     hostname: cacti
