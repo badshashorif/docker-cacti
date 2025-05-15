@@ -3,7 +3,7 @@ services:
 
 
   cacti-master:
-    image: "smcline06/cacti"
+    image: "badshashorif/cacti"
     container_name: cacti_master
     domainname: example.com
     hostname: cactimaster
